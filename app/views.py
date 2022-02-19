@@ -19,4 +19,8 @@ def create(request):
         return redirect('app/home')
 
 
+def backup(request):
+    return render(request, 'app/backup.html')
+
+
 
